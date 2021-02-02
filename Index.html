@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Contact Details</h1>
+    <form>
+      <p>
+        Name: <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+      </p>
+      <p>
+        Gender: <select name="gender" id="gender" required>
+          <option value="">---Select Your Gender---</option>
+          <option value="male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </p>
+      <p>
+        Address: <textarea name="address" id="address" placeholder="Enter Your Address" rows="10" required />
+        </p>
+    <p>
+      Pincode: <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pincode" required>
+    </p>
+    <p>
+     Email: <input type="email" name="email" id="email" placeholder="YourName@Company.Com">
+    </p>
+    <input id="submit" type="submit" value="Submit">
+  </form>
+  </div>
+</body>
+</html>
