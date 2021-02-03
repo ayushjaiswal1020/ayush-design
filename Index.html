@@ -4,18 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Title Of The Webpage-->
   <title>Contact Form</title>
+  <!--Adding External Fonts And Css-->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!--Making Container For The Form-->
   <div class="container">
+    <!--Heading Of The Webpage-->
     <h1>Contact Details</h1>
+    <!--Form Starts Here-->
     <form>
       <p>
+        <!--Taking User Name-->
         Name: <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
       </p>
       <p>
+        <!--Asking User Gender-->
         Gender: <select name="gender" id="gender" required>
           <option value="">---Select Your Gender---</option>
           <option value="male">Male</option>
@@ -23,16 +30,23 @@
         </select>
       </p>
       <p>
-        Address: <textarea name="address" id="address" placeholder="Enter Your Address" rows="10" required />
-        </p>
-    <p>
-      Pincode: <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pincode" required>
-    </p>
-    <p>
-     Email: <input type="email" name="email" id="email" placeholder="YourName@Company.Com">
-    </p>
-    <input id="submit" type="submit" value="Submit">
-  </form>
+        <!--Taking Address From User-->
+        Address: <textarea name="address" id="address" placeholder="Enter Your Address" rows="10" required></textarea>
+      </p>
+      <p>
+        <!--Pincode Of City As Input From The User-->
+        Pincode: <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pincode" required>
+      </p>
+      <p>
+        <!--User Email As Input-->
+        Email: <input type="email" name="email" id="email" placeholder="YourName@Company.Com">
+      </p>
+      <!--Submit Data That User Has Entered-->
+      <input id="submit" type="submit" value="Submit">
+    </form>
+    <!--Forms Ends Here-->
   </div>
+  <!--Closing Container-->
 </body>
+
 </html>
