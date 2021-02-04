@@ -11,7 +11,7 @@ body {
   margin: 25px 20px 25px 20px
 }
 
-.container {
+.container_form {
   background-color: #f2f2f2;
   padding: 14px 21px 19px 21px;
   border: 2px solid lightgrey;
@@ -19,7 +19,15 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-input[type="submit"] {
+.container_table {
+  background-color: #f2f2f2;
+  padding: 14px 21px 19px 21px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.submit {
   background-color: cadetblue;
   width: 100px;
   height: 35px;
@@ -31,7 +39,7 @@ input[type="submit"] {
   color: white;
 }
 
-input[type="submit"]:active {
+.submit:active {
   background-color: dodgerblue;
 }
 
@@ -54,4 +62,12 @@ h1 {
   font-size: 34px;
   margin-bottom: 15px;
   font-family: 'Oswald', sans-serif;
+}
+td {
+  padding: 0.7em;
+  font-size: 15px;
+}
+
+.back_table {
+  margin-top: 1em;
 }
